@@ -1,0 +1,30 @@
+.videofooter {
+  position: relative;
+  color: white;
+  bottom: 120px;
+  display: flex;
+  padding-left: 10px;
+}
+.videofooter__text {
+  flex: 1;
+  padding-left: 10px;
+}
+.videofooter__text > h3 {
+  padding-bottom: 5px;
+}
+.videofooter__record {
+  animation: spin 5s infinite linear;
+  height: 50px;
+  filter: invert(1);
+}
+.videofooter__marquee {
+  padding-top: 15px;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
